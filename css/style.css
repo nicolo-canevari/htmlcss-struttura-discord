@@ -1,0 +1,222 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+/* primo_box */
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #add8e7 ;
+} 
+
+#container_nav {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+#logo {
+    width: 250px;
+    height: 40px;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: black;
+    background-color: #d8a41d;
+}
+
+#list {
+    width: 800px;
+    height: 40px;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: black;
+    background-color: #d8a41d;
+}
+
+#login {
+    width: 250px;
+    height: 40px;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: black;
+    background-color: #d8a41d;
+}
+
+
+
+/* secondo_box */
+.Jumbotron {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    background-color: #00018b;
+}
+
+.Jumbotron>div {
+    width: 60%;
+    height: auto;
+    margin: 10px 0;
+    background-color: #ef82ed; 
+    border-style: dashed;
+    border-width: 4px;
+    border-color: black; 
+}
+
+
+/* text */
+.text {
+    background-color: #ffc0ca;
+    height: 100%;
+    width: 40%;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: black; 
+}
+
+
+/* terzo_box */
+.presentation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    background-color: white;
+}
+
+.presentation>div {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin: 10px 0;
+    background-color: #1e90ff;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: black;   
+}
+
+
+/* quarto_box */
+.chat {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    background-color: #d3d3d3;
+}
+
+.chat>div {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 10px 0;
+    background-color: #1e90ff;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: black;
+}
+
+
+/* quinto_blocco */
+.fandom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    background-color: white;
+}
+
+.fandom>div {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin: 10px 0;
+    background-color: #1e90ff;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: black;
+}
+
+
+/* sesto_blocco */
+.download {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: #d3d3d3;
+}
+
+.download>div {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    margin: 20px;
+    background-color: green;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: black;
+}
+
+
+/* footer */
+footer {
+    width: 100%;
+    height: 100vh;
+    background-color: #23272a;
+    padding: 10px;
+}
+
+#list_footer {
+    display: flex;
+    justify-content: flex-end;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #f08180;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: black;
+}
+
+#list_footer>.info {
+    display: flex;
+    background-color: #5fced1;
+    height: 100%;
+    width: 220px;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: black;
+}
+
+hr {
+    border-top: white;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#buttons_container {
+    display: flex;
+    justify-content: space-between;
+    height: 12%;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+    background-color: #7fffd4;
+}
+
+button {
+    flex-direction: column;
+    align-self: center;
+    width: 85px;
+    height: 30px;
+}
+
+
+
+
+
